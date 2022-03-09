@@ -5,4 +5,9 @@ public class Preguiça extends Animal {
 	public void Escalar() {
 		System.out.println("Subindo em Árvore...");
 	}
+	
+	@Override
+	public void Som() {
+		System.out.println("Berrando...");
+	}
 }

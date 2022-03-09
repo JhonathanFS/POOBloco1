@@ -1,8 +1,9 @@
 package heranca;
 
 public class Cachorro extends Animal {
-	
-	public void Corra() {
+
+	@Override
+	public void Som() {
 		System.out.println("Correndo...");
 	}
 }
